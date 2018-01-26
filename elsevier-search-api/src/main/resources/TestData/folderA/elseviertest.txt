@@ -1,0 +1,18 @@
+
+The purpose of this exercise is to produce a piece of code that meets professional standards to be used as a conversation piece in the interview. Please bear in mind that these are the minimum requirements and that the exercise is intentionally open-ended.
+Task
+Create a web-service that searches a configured directory, including subdirectories, for files containing all words in a list of words that are provided to the service via an HTTP call.
+•	Present a simple RESTful API to allow a search to be performed.
+•	Allow searching with multiple words.
+•	Multiple word searches should return only files that match all words (AND search).
+•	Should perform whole word matches.
+i.e. A search for ‘Cat’ should not match the word ‘Scatter’.
+•	No fuzzy search required.
+No need to worry about wildcards, stemming, substring matches etc.
+•	Return results as quickly as possible.
+•	Your code should be production ready code, and up to a professional standard.
+
+Assumptions
+You can assume the following are true.
+•	Files and their content won’t change between calls to the service, nor will files be added or removed.
+•	You have all the memory 
